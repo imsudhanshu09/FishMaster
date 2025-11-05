@@ -1,79 +1,116 @@
-# fisher.io
+# 🐟 FishMaster — AI-Powered Coastal Fishing Assistant
 
-FishMaster
-FishMaster is a mobile application designed to support Tamil Nadu’s coastal fishermen by addressing challenges such as overfishing, boundary violations, and inefficient resource usage. The app provides intelligent route planning, real-time alerts, marine data integration, and AI-powered assistance to promote sustainable and efficient fishing practices.
+FishMaster is a mobile application designed to support **Tamil Nadu’s coastal fishermen** by addressing challenges like overfishing, boundary violations, and inefficient resource use.  
+The app integrates **geofencing**, **marine weather data**, and **AI assistance** to promote **sustainable, compliant, and data-driven fishing practices**.
 
-Overview
-In 2023, Tamil Nadu witnessed a 21.8% drop in marine fish landings. Additionally, 528 fishermen were captured in 2024 due to unintentional boundary crossings. This highlights the urgent need for tools that support compliance, efficiency, and sustainability in fishing operations.
+---
 
-FishMaster enables smarter, safer fishing by integrating weather forecasts, fish distribution data, geofencing, and AI guidance into a single mobile platform.
+## 🌊 Overview
 
-Problem Statement
-Inefficient fishing methods result in fuel waste and poor catch rates.
+In **2023**, Tamil Nadu recorded a **21.8% drop in marine fish landings**, and **528 fishermen were captured in 2024** due to unintentional boundary crossings.  
+These challenges highlight the need for an intelligent, real-time tool that ensures **safety, compliance, and efficiency**.
 
-Boundary violations lead to arrests and legal trouble.
+**FishMaster** enables smarter fishing by combining:
+- 🧭 Real-time navigation and geofencing alerts  
+- 🌦️ Marine weather and environmental insights  
+- 🐠 Fish distribution and effort zone analytics  
+- 🤖 AI-driven chatbot assistance for safety and compliance  
 
-Lack of real-time environmental and regulatory data.
+---
 
-Traditional fishing lacks technological support and forecasting.
+## 🚩 Problem Statement
 
-Key Features
-Fishing Area Selection
-Search by fish species and gear type for tailored recommendations.
+- Inefficient fishing methods cause **fuel waste** and **low catch rates**  
+- Fishermen risk **international boundary violations** and **legal trouble**  
+- Absence of **real-time environmental and regulatory data**  
+- Traditional methods lack **digital forecasting and support tools**
 
-View effort zone heatmaps indicating high, medium, and low fishing activity.
+---
 
-Navigation & Time Management
-Route planning with destination setting, compass direction, and distance calculation.
+## ⚙️ Key Features
 
-Gear-based timers to manage time spent in effort zones.
+### 🎣 Fishing Area Selection
+- Search by **fish species** and **gear type** for personalized insights  
+- Visualize **effort zone heatmaps** (high, medium, low activity)  
 
-Local Weather & Marine Data
-Real-time weather updates including temperature, wind speed, wave height.
+### 🧭 Navigation & Time Management
+- Set destinations, get **compass directions**, and track **distance**  
+- Gear-based **timers** to manage time spent in effort zones  
 
-Forecast insights for daily and weekly planning.
+### 🌤️ Local Weather & Marine Data
+- Real-time updates: temperature, wind speed, wave height, and trends  
+- Daily and 7-day forecasts for trip planning  
 
-Geofencing Alerts
-Alerts for boundary crossings and restricted areas.
+### 🚫 Geofencing Alerts
+- Boundary crossing and restricted zone warnings  
+- Notifications during **60-day fishing ban periods**  
 
-Notifications for the 60-day fishing ban period.
+### 💬 AI Chatbot (Gemini API)
+- Instant responses for legal, weather, and safety-related queries  
+- Multilingual support for better accessibility  
 
-Chatbot Assistance
-AI chatbot using Gemini API for guidance on legal compliance, safety tips, and fishing best practices.
+---
 
-Technologies Used
+## 🧩 Tech Stack
 
-Technology	Purpose
-Flutter (via IDX)	Cross-platform mobile application development
-Google Maps API	Location tracking and navigation
-Geofencing	Alerting users when crossing into restricted zones
-Global Fishing Watch	Fishing effort data integration
-GBIF API	Fish species occurrence and distribution data
-OpenWeatherMap & Meteo	Local and marine weather data
-Gemini API	AI-powered chatbot assistance
-Firebase	Authentication and cloud data storage
-Architecture
-The application is structured into the following components:
+| Technology | Purpose |
+|-------------|----------|
+| **Flutter (via IDX)** | Cross-platform mobile app development |
+| **Google Maps API** | Real-time location and navigation |
+| **Geofencing** | Alert system for restricted zones |
+| **Global Fishing Watch API** | Fishing effort data integration |
+| **GBIF API** | Fish species occurrence & distribution |
+| **OpenWeatherMap / Meteo API** | Weather and marine data |
+| **Gemini API** | AI-powered chatbot |
+| **Firebase** | Authentication and cloud data storage |
 
-Frontend built using Flutter (mobile/web compatible).
+---
 
-Firebase for authentication and user data storage.
+## 🏗️ Architecture
 
-Real-time APIs for weather, marine data, and geolocation services.
+- **Frontend:** Flutter (Android, iOS, Web)  
+- **Backend:** Firebase for user data and authentication  
+- **Real-time APIs:** Weather, marine data, and geolocation services  
+- **AI Layer:** Gemini API for context-aware assistance  
 
-AI chatbot powered by Gemini API for contextual assistance.
+---
 
-Future Enhancements
-AI-based fish movement prediction using weather, migration, and historical data.
+## 🚀 Future Enhancements
 
-Voice-based AI services in Tamil and other regional languages.
+- 🧠 AI-based **fish movement prediction** using weather & migration data  
+- 🗣️ **Voice-based AI assistant** (Tamil & regional languages)  
+- 🛒 **Marketplace integration** for direct fish sales to consumers  
+- 🌐 **Community insights** to share routes, techniques, and safe zones  
 
-Marketplace integration for direct sales to consumers.
+---
 
-Community-driven insights to share safe routes and effective fishing spots.
+## 🎥 Demo
 
-Demo
-Watch the full demo here:
-https://youtu.be/Mle2UeDlfuY
+📺 Watch the full demo video here:  
+👉 [https://youtu.be/Mle2UeDlfuY](https://youtu.be/Mle2UeDlfuY)
 
+---
+
+## 📍 Impact
+
+✅ Reduces boundary violations through smart geofencing  
+✅ Lowers fuel consumption via optimized route planning  
+✅ Enhances catch efficiency and sustainability  
+✅ Bridges the gap between traditional fishing and digital technology  
+
+---
+
+## 🤝 Contributors
+
+- **Sudhanshu Kumar**, **Tejas Balkhande**, **Tushar Hirekhan**, **Sambita Mondal**
+
+---
+
+## 🧾 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+### ⭐ If you like this project, consider giving it a star on GitHub!
 

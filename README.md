@@ -3,6 +3,8 @@
 FishMaster is a mobile application designed to support **Tamil Nadu’s coastal fishermen** by addressing challenges like overfishing, boundary violations, and inefficient resource use.  
 The app integrates **geofencing**, **marine weather data**, and **AI assistance** to promote **sustainable, compliant, and data-driven fishing practices**.
 
+🔗 **Live Website:** [https://thunderous-blini-970858.netlify.app](https://thunderous-blini-970858.netlify.app)
+
 ---
 
 ## 🌊 Overview
